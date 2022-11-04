@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    font-size: 5em;
+}
+.main h3{
+    font-style: 3em;
+}
+.main .logo{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    overflow: hidden;
+    box-shadow: 0 2px 100px rgba(0, 0, 0, 1);
+}
+.bottom{
+    margin-top: 100px;
+}
